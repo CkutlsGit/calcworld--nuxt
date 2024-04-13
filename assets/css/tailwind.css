@@ -6,11 +6,28 @@
     body {
         background: #DAE2B6;
     }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input:focus, select:focus {
+        outline: none;
+    }
 }
 
 @layer components {
     .btn-header-menu {
         @apply m-2 text-black hover:text-blue-200 ease-in duration-300
+    }
+    .params-window-calculator {
+        @apply  w-1/2 min-h-96 max-h-96
+    }
+    .input-style-default {
+        @apply max-w-32 max-h-8 min-w-32 min-h-8 rounded-md p-2
+    }
+    .select-style-default {
+        @apply max-w-48 min-w-32 min-h-8 rounded-md p-2
     }
 }
 
