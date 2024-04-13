@@ -1,8 +1,18 @@
 <template>
-  <div class="text-center">
-    <h2 class="font-montserrat font-bold text-2xl">Тест мини</h2>
-    <p class="font-merriweather font-semibold text-xl max-w-64 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aperiam at atque aut cupiditate delectus eaque eligendi eos eveniet, laudantium, minima officiis porro quasi repudiandae saepe sed similique voluptates.</p>
-  </div>
+  <main class="main">
+    <div class="main__content m-12 text-2xl text-white font-montserrat font-medium max-sm:text-center">
+      <h1>
+        <strong>Calc-World</strong> - Это сайт искусств калькуляторов. Представляет из себя большой огромный калькулятор для процентов,
+        инвестиций и так далее.
+      </h1>
+      <p class="my-5">
+        Создан  данный сайт руками <a href="https://github.com/CkutlsGit" target="_blank" class="text-gray-400 hover:text-blue-400 duration-300 ease-in">Константина aka Ckutls</a>
+        <br>
+        Стэк: Nuxt3, Vite, Tailwind, JS(ES6).
+      </p>
+      <h2>Чтобы начать пользоваться наведитесь на кнопку "Калькуляторы"</h2>
+    </div>
+  </main>
 </template>
 
 <script setup>
