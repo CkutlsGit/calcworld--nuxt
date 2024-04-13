@@ -1,6 +1,6 @@
 <template>
   <header class="header bg-header">
-    <div class="header__content flex items-center justify-between p-4">
+    <div class="header__content flex items-center justify-between p-4 max-sm:flex-col">
       <div class="header__logo m-4">
         <h1 class="text-3xl color-text-custom font-merriweather font-bold">Calc-World</h1>
       </div>
