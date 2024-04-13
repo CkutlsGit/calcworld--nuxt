@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+}
+
+@layer components {
+
+}
+
+@layer utilities {
+    .font-montserrat {
+        font-family: "Montserrat", sans-serif;
+    }
+    .font-merriweather {
+        font-family: "Merriweather", serif;
+    }
+}

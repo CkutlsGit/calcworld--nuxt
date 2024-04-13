@@ -10,7 +10,8 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     familes: {
-      //
+      'Merriweather': true,
+      'Montserrat': true,
     }
   }
 })
