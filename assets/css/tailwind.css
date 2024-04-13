@@ -3,18 +3,40 @@
 @tailwind utilities;
 
 @layer base {
-
+    body {
+        background: #DAE2B6;
+    }
 }
 
 @layer components {
-
+    .btn-header-menu {
+        @apply m-2 text-black hover:text-blue-200 ease-in duration-300
+    }
 }
 
 @layer utilities {
+    .bg-header {
+        background: #CCD6A6;
+    }
+    .bg-header-menu {
+        background: #F4EAD5;
+    }
+    .bg-btns {
+        background: #DAE2B6;
+    }
+    .bg-btns-hover {
+        background: #c1c7a2;
+    }
+    .color-text-custom {
+        color: #FFFBE9;
+    }
     .font-montserrat {
         font-family: "Montserrat", sans-serif;
     }
     .font-merriweather {
         font-family: "Merriweather", serif;
+    }
+    .animation-default {
+        transition: ease-in .3s;
     }
 }
