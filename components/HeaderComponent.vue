@@ -10,8 +10,8 @@
         <div class="nav-menu relative inline-block">
           <button class="text-lg font-montserrat font-semibold text-gray-50 bg-btns p-2 rounded-lg">Калькуляторы</button>
           <div class="nav-menu__content flex flex-col text-center bg-header-menu rounded-lg w-36 max-h-64 overflow-y-auto absolute opacity-0">
-            <NuxtLink to="/calculators/math-calculator" :class="{ 'text-blue-200' : route.fullPath === '/calculators/math-calculator' }" class="btn-header-menu">Обычный калькулятор</NuxtLink>
-            <NuxtLink class="btn-header-menu">Обычный калькулятор</NuxtLink>
+            <NuxtLink to="/calculators/math-calculator" :class="{ 'text-blue-200' : route.fullPath === '/calculators/math-calculator' }" class="btn-header-menu">Обычный</NuxtLink>
+            <NuxtLink to="/calculators/percent-calculator" :class="{ 'text-blue-200' : route.fullPath === '/calculators/percent-calculator' }" class="btn-header-menu">Процентный</NuxtLink>
             <NuxtLink class="btn-header-menu">Обычный калькулятор</NuxtLink>
             <NuxtLink class="btn-header-menu">Обычный калькулятор</NuxtLink>
             <NuxtLink class="btn-header-menu">Обычный калькулятор</NuxtLink>
@@ -25,8 +25,6 @@
 
 <script setup>
   const route = useRoute()
-
-  console.log(route.fullPath)
 </script>
 
 <style scoped>
