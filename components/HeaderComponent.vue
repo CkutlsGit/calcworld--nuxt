@@ -13,9 +13,6 @@
             <NuxtLink to="/calculators/math-calculator" :class="{ 'text-blue-200' : route.fullPath === '/calculators/math-calculator' }" class="btn-header-menu">Обычный</NuxtLink>
             <NuxtLink to="/calculators/percent-calculator" :class="{ 'text-blue-200' : route.fullPath === '/calculators/percent-calculator' }" class="btn-header-menu">Процентный</NuxtLink>
             <NuxtLink to="/calculators/days-calculator" :class="{ 'text-blue-200' : route.fullPath === '/calculators/days-calculator' }" class="btn-header-menu">Дней</NuxtLink>
-            <NuxtLink class="btn-header-menu">Обычный калькулятор</NuxtLink>
-            <NuxtLink class="btn-header-menu">Обычный калькулятор</NuxtLink>
-            <NuxtLink class="btn-header-menu">Обычный калькулятор</NuxtLink>
           </div>
         </div>
       </div>
